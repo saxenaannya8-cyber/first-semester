@@ -1,0 +1,20 @@
+{
+    /* background-color:blue; */
+    color:rgb(80, 67, 130);
+    font-family: 'Arial', sans-serif;
+    font-style:italic;
+    text-align: center;
+    text-decoration:underline wavy;
+    line-height: 1.6;
+    word-spacing:8px;
+    letter-spacing:2px;
+    text-transform: uppercase;
+    /* background-color: rgb(211, 225, 120);    */
+    /* background-image: ; */
+    /* background-color:blue; */
+    
+}
+
+h1{
+    color:rgb(152, 68, 123);
+}
