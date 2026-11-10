@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef1f9;
+    min-height: 100vh;
+}
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    background-color: #14223d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+}
+
+.profile-container {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 36px 15px;
+}
+
+.profile-card {
+    width: 423px;
+    max-width: 100%;
+    min-height: 475px;
+    background-color: white;
+    border: 3px solid #4169e1;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.profile-icon {
+    width: 136px;
+    height: 136px;
+    border-radius: 50%;
+    background-color: #315bea;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    margin-bottom: 28px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #080808;
+    margin-bottom: 30px;
+}
+
+.role {
+    font-size: 23px;
+    margin-bottom: 24px;
+    color: #111;
+}
+
+.bio {
+    width: 100%;
+    height: 120px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.25;
+    color: #111;
+}
+
+.add-button {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ffb600;
+    color: #111;
+    font-size: 38px;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: #f5a900;
+}
+
+@media (max-width: 480px) {
+    .profile-card {
+        padding: 25px 20px;
+    }
+
+    h1 {
+        font-size: 27px;
+    }
+
+    .role {
+        font-size: 19px;
+    }
+
+    .add-button {
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+    }
+}
